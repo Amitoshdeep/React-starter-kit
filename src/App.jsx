@@ -7,18 +7,20 @@ import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 function App() {
   return (
+    <>
+    <Navbar/>
     <div
       data-scroll-container
       className='mainDiv
       '
     >
-      <Navbar/>
       <ScrollToTop />
 
       <Routes>
         <Route path='/' element={<Home/>} />
       </Routes>
     </div>
+    </>
   )
 }
 
