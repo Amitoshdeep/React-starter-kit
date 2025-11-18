@@ -3,8 +3,8 @@ import {Routes, Route} from 'react-router-dom';
 
 // My imports
 import Home from './pages/Home';
-import ScrollToTop from './components/ScrollToTop';
-import Navbar from './components/Navbar';
+import ScrollToTop from './components/layout/ScrollToTop';
+import Navbar from './components/layout/Navbar';
 function App() {
   return (
     <>
