@@ -1,4 +1,4 @@
-# `import { pain } from 'react'`
+# `React-starter-kit`
 
 > A cursed-but-useful React + Vite + Tailwind starter. Built for speed, suffering, and spontaneous creativity. Handle with care.
 
